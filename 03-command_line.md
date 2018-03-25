@@ -27,15 +27,14 @@ Make a cheat sheet for yourself: a list of at least **ten** commands and what th
 ### Q2.  List Files in Unix   
 
 What do the following commands do:  
-`ls`  
-`ls -a`  
-`ls -l`  
-`ls -lh`  
-`ls -lah`  
-`ls -t`  
-`ls -Glp`  
+`ls` lists the content of a directory
+`ls -a`  lists all (+hidden) content of a directory
+`ls -l`  long listing of the content
+`ls -lh`  long listing with human readable file sizes
+`ls -lah`  long listing all content with human readable file sizes
+`ls -t`  lists and sorts based on date created
+`ls -Glp`  long lists the color-coded contents with marked directories (/)
 
-> > REPLACE THIS TEXT WITH YOUR RESPONSE
 
 ---
 
@@ -43,7 +42,7 @@ What do the following commands do:
 
 Explore these other [ls options](http://www.techonthenet.com/unix/basic/ls.php) and pick 5 of your favorites:
 
-> > REPLACE THIS TEXT WITH YOUR RESPONSE
+> > ls -t / ls -G / ls -a / ls -d / ls -lh
 
 ---
 
@@ -51,7 +50,8 @@ Explore these other [ls options](http://www.techonthenet.com/unix/basic/ls.php) 
 
 What does `xargs` do? Give an example of how to use it.
 
-> > REPLACE THIS TEXT WITH YOUR RESPONSE
+> > xargs apply one or more functions to seperate standard inputs in terminal. Like let's say we want to creat three directories using mkdir at the same time. We can type in:
+echo 'one two three' | xargs mkdir
 
  
 
